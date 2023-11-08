@@ -34,7 +34,7 @@ export default function App() {
       <div className="container">
         <h1>Password Generator</h1>
         <CopyButton onClick={copyText}>{password}</CopyButton>
-        <span>Clique para copiar</span>
+        <span>Click to copy</span>
         <CustomButton onClick={generatePassword}>Generate 🔐</CustomButton>
       </div>
       <Footer />
